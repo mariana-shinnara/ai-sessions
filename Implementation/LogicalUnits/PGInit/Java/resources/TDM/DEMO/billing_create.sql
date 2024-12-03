@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS public.subscriber (
     subscriber_id bigint NOT NULL,
-    msisdn character varying(200) DEFAULT NULL::character varying,
+    ssn character varying(200) DEFAULT NULL::character varying,
     imsi character varying(200) DEFAULT NULL::character varying,
     sim character varying(200) DEFAULT NULL::character varying,
     first_name character varying(200) DEFAULT NULL::character varying,
